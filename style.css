@@ -1,0 +1,131 @@
+html {
+    font-family: arial, 'Courier New', Courier;
+}
+
+.header,
+.top-banner {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 250px;
+}
+
+.banner .text {
+    color: #e5e7eb;
+}
+
+.logo,
+.call {
+    font-size: 24px;
+    color: #f9faf8;
+    /* flex-shrink: 0; */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.pic,
+.intro {
+    width: 500px;
+    /* height: auto; */
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    flex: 0 0 auto;
+}
+
+#button1 {
+    border: 1px solid #3882f6;
+}
+
+#button2 {
+    border: 1px solid white;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.headline {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+.all-cards {
+    display: flex;
+    gap: 50px;
+    border: 0;
+    border-radius: 10px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.brief {
+    width: 200px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 20px 250px;
+}
+
+.quote .name {
+    font-weight: bold;
+    text-align: end;
+}
+
+.bottom-banner {
+    background-color: #3882f6;
+    margin: 70px 250px;
+    padding: 40px 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px 250px;
+}
