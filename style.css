@@ -7,10 +7,11 @@ html {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px 250px;
+    padding: 20px 150px;
 }
 
-.banner .text {
+.banner .text,
+.footer .text {
     color: #e5e7eb;
 }
 
@@ -29,7 +30,6 @@ ul {
 
 .top-links {
     display: flex;
-    justify-content: flex-end;
     gap: 20px;
 }
 
@@ -43,7 +43,8 @@ a {
 .pic,
 .intro {
     width: 500px;
-    /* height: auto; */
+    align-self: center;
+
 }
 
 button {
@@ -84,10 +85,11 @@ button {
 .all-cards {
     display: flex;
     gap: 50px;
-    border: 0;
-    border-radius: 10px;
+    /* border: 0;
+    border-radius: 10px; */
     gap: 50px;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .card img {
@@ -106,7 +108,7 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 20px 250px;
+    padding: 20px 150px;
 }
 
 .quote .name {
@@ -116,8 +118,8 @@ button {
 
 .bottom-banner {
     background-color: #3882f6;
-    margin: 70px 250px;
-    padding: 40px 100px;
+    margin: 90px 150px;
+    padding: 30px 100px;
     display: flex;
     border-radius: 10px;
     justify-content: space-between;
@@ -127,5 +129,5 @@ button {
 .footer {
     background-color: #1f2937;
     text-align: center;
-    padding: 20px 250px;
+    padding: 20px 150px;
 }
